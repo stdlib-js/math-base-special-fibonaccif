@@ -209,7 +209,7 @@ The function accepts the following arguments:
 -   **n**: `[in] int32_t` input value.
 
 ```c
-float stdlib_base_fibonacci( const int32_t n );
+float stdlib_base_fibonaccif( const int32_t n );
 ```
 
 </section>
