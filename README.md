@@ -70,7 +70,7 @@ with seed values `F_0 = 0` and `F_1 = 1`.
 ## Usage
 
 ```javascript
-import fibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@deno/mod.js';
+import fibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@v0.1.0-deno/mod.js';
 ```
 
 #### fibonaccif( n )
@@ -137,7 +137,7 @@ var v = fibonaccif( NaN );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import fibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@deno/mod.js';
+import fibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@v0.1.0-deno/mod.js';
 
 var x = discreteUniform( 10, 0, 36 );
 
