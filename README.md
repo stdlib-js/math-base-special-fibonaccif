@@ -70,6 +70,11 @@ with seed values `F_0 = 0` and `F_1 = 1`.
 ## Usage
 
 ```javascript
+import fibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-fibonaccif/tags). For example,
+
+```javascript
 import fibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@v0.1.1-esm/index.mjs';
 ```
 
@@ -142,7 +147,7 @@ var v = fibonaccif( NaN );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import fibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@v0.1.1-esm/index.mjs';
+import fibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@esm/index.mjs';
 
 var x = discreteUniform( 10, 0, 36 );
 
