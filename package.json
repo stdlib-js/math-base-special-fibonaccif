@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-fibonaccif",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compute the nth Fibonacci number as a single-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -40,19 +40,19 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-float32-max-safe-nth-fibonacci": "github:stdlib-js/constants-float32-max-safe-nth-fibonacci#main",
-    "@stdlib/math-base-assert-is-nanf": "^0.2.2",
-    "@stdlib/math-base-assert-is-nonnegative-integerf": "^0.1.0",
-    "@stdlib/math-base-napi-unary": "^0.2.4",
+    "@stdlib/constants-float32-max-safe-nth-fibonacci": "^0.1.0",
+    "@stdlib/math-base-assert-is-nanf": "^0.2.3",
+    "@stdlib/math-base-assert-is-nonnegative-integerf": "^0.1.1",
+    "@stdlib/math-base-napi-unary": "^0.2.7",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-int32": "^0.2.2",
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/constants-float32-phi": "^0.0.2",
     "@stdlib/constants-float32-pinf": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/math-base-special-roundf": "github:stdlib-js/math-base-special-roundf#main",
+    "@stdlib/math-base-special-roundf": "^0.1.0",
     "@stdlib/math-base-special-sqrtf": "^0.2.2",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
