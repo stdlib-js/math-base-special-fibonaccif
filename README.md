@@ -72,7 +72,7 @@ with seed values `F_0 = 0` and `F_1 = 1`.
 To use in Observable,
 
 ```javascript
-fibonaccif = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@umd/browser.js' )
+fibonaccif = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -84,7 +84,7 @@ var fibonaccif = require( 'path/to/vendor/umd/math-base-special-fibonaccif/index
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -164,7 +164,7 @@ var v = fibonaccif( NaN );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonaccif@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
